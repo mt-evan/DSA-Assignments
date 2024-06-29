@@ -3,7 +3,9 @@ Data Structures and Algorithms Programming Assignments
 
 # Programming Assignment 1 README
 CircularDLL.cpp
+
 Evan Tardiff
+
 2/13/24
 
 Code description:
@@ -87,7 +89,9 @@ node respectively, and the node has been deleted. Length has been decremented by
 
 # Programming Assignment 2 README
 BinaryTree.cpp
+
 Evan Tardiff
+
 3/21/24
 
 The prompt was to come up with a method that would take in any binary tree and output a balanced tree with its contents.
@@ -132,7 +136,9 @@ The time complexity for creating the array is O(n) because traversing a tree and
 
 # Programming Assignment 3 README
 PrimAlgorithm.cpp
+
 Evan Tardiff
+
 5/4/24
 
 Instead of using a list to implement the priority queue (min-heap), a binary tree implementation was a requirement for this assignment. Inserting into the binary tree to make it a min-heap was done with several cases. If the tree is perfect, then insert at the very left of a new depth. If the tree is not perfect, the left subtree is perfect, and the right subtree is not perfect, go right. If the tree is not perfect and the left subtree is not perfect, go left. This is done recursively until the new node is inserted. 
