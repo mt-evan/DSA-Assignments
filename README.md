@@ -102,10 +102,14 @@ Helper method: constructBalancedBST(T array, int start, int end, BinarySearchTre
 This method works by initially creating an array filled with the tree’s contents in ascending order. A new tree is created to replace the old one using this array. The value at the index of (array.length - 1) / 2 becomes the root node because it is basically the middle value. The left side of this index and right side become their own arrays, and we repeat this process recursively on them until all the content has been inserted into the tree. We also do left side before right side in the same loop, but doing right first then left should yield the same result.
 
 Pre-conditions:
+
 ● The input BST is not null meaning it is not empty
 Post-conditions:
+
 ● The input BST is deleted whether it’s balanced or not
+
 ● A new BST replaces it that is definitely balanced and maintains BST properties
+
 ● All elements in the original BST are also in the new one
 
 Pseudocode:
